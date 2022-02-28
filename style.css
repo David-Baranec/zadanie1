@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+#sortMe{
+    margin:5%;
+    width: 85%;
+    table-layout: fixed;
+}
+
+body{
+    margin:5%;
+    background-color: rgb(196, 233, 233);
+}
+
+form{
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+p{
+    font: size 24px;
+}
+#extension{
+    display: none;
+}
