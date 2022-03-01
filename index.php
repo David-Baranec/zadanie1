@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="icon" href="favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>výpis adresára</title>
     <!-- Bootstrap CSS -->
@@ -29,7 +29,7 @@
             <?php
             $a = $_GET['param'];
             $_path = "/home/xbaranecd/files";
-            var_dump($_path);
+           // var_dump($_path);
 
             function move($path, $file)
             {
@@ -41,14 +41,14 @@
 
                 return "https://site38.webte.fei.stuba.sk/zadanie1/index.php?param=$new/$file";
             }
-            var_dump($_path);
+            //var_dump($_path);
             if(isset($a) && $a != "files"){
                 $_path = $_path . "$a";
             }
             if(!str_contains($_path, "..")){
                 $files = scandir($_path);
             }
-            var_dump($_path);
+            //var_dump($_path);
 
             //$pole = scandir($path);
             foreach ($files as $file) {
