@@ -1,0 +1,7 @@
+https://www.w3schools.com/php/php_file_upload.asp
+
+
+https://htmldom.dev/sort-a-table-by-clicking-its-headers/
+
+
+https://stackoverflow.com/questions/43708127/javascript-get-the-filename-and-extension-from-input-type-file
